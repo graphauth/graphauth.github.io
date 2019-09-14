@@ -1,0 +1,13 @@
+<html>
+<head>
+  <title>测试</title>
+</head>
+<body>
+  <h1>复制下面的URL</h1>
+  <textarea id="url" style="width:100%;overflow-x:visible;overflow-y:visible;" onclick="this.select();" readOnly></textarea>
+  <script>
+    var u = document.getElementById('url');
+    u.innerHTML = window.location.href;
+  </script>
+</body>
+</html>
